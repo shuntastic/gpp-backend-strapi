@@ -1,0 +1,40 @@
+{
+  "name": "cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "^0.19.5",
+    "sqlite3": "latest",
+    "strapi": "3.3.3",
+    "strapi-admin": "3.3.3",
+    "strapi-connector-bookshelf": "3.3.3",
+    "strapi-plugin-content-manager": "3.3.3",
+    "strapi-plugin-content-type-builder": "3.3.3",
+    "strapi-plugin-documentation": "3.3.3",
+    "strapi-plugin-email": "3.3.3",
+    "strapi-plugin-upload": "3.3.3",
+    "strapi-plugin-users-permissions": "3.3.3",
+    "strapi-provider-upload-aws-s3": "^3.2.0-beta.1",
+    "strapi-utils": "3.3.3",
+    "yup": "^0.31.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "ecf57861-4f5d-4b15-8b02-7e412f4365d3"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

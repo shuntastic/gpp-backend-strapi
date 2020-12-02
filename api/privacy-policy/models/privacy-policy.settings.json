@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "Legal",
+  "info": {
+    "name": "Privacy Policy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

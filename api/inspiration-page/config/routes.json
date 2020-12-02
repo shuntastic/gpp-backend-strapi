@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/inspiration-page",
+      "handler": "inspiration-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/inspiration-page",
+      "handler": "inspiration-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/inspiration-page",
+      "handler": "inspiration-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

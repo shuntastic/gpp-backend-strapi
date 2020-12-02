@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Headline_LO": {
+      "type": "string"
+    },
+    "Content_LO": {
+      "type": "richtext"
+    },
+    "Headline_LI": {
+      "type": "string"
+    },
+    "Content_LI": {
+      "type": "richtext"
+    },
+    "ctaButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-button"
+    }
+  }
+}

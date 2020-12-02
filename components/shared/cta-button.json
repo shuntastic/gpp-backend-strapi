@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_cta_buttons",
+  "info": {
+    "name": "CTA Button",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newWindowBool": {
+      "type": "boolean"
+    }
+  }
+}

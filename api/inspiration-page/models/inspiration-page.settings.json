@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "inspiration_pages",
+  "info": {
+    "name": "Inspiration Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "Inspiration"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

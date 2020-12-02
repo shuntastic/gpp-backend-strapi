@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/favorites-page",
+      "handler": "favorites-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/favorites-page",
+      "handler": "favorites-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/favorites-page",
+      "handler": "favorites-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

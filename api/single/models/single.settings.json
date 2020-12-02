@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "singles",
+  "info": {
+    "name": "Inspiration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "InspirationType": {
+      "type": "enumeration",
+      "enum": [
+        "mantra",
+        "song",
+        "reading"
+      ],
+      "default": "mantra"
+    },
+    "DisplayDate": {
+      "type": "datetime"
+    }
+  }
+}

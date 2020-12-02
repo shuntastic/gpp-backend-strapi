@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/learn-more",
+      "handler": "learn-more.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/learn-more",
+      "handler": "learn-more.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/learn-more",
+      "handler": "learn-more.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
